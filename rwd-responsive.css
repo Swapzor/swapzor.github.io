@@ -1,0 +1,33 @@
+
+@media all and (max-width:1170px) {
+    .background-pic {
+        background-image: url("C://Users/marci/OneDrive/Desktop/rwd-zadanie/obrazy/man-2.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .Title {
+        height: 75vh;
+        align-content: flex-end;
+        justify-content: flex-start;
+    }
+
+}
+
+@media all and (max-width:992px) {
+    .background-pic {
+    height: 50vh;
+    background-image: url("C:/Users/marci/OneDrive/Desktop/rwd-zadanie/obrazy/man-1.jpg");
+    }
+    .Title {
+    height: 100vh;
+    color: black;
+    justify-content: flex-end;
+    align-items: center;
+
+    }
+    h2 {
+    display: flex;
+    align-self: center;
+    }
+}
